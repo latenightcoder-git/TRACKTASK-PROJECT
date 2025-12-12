@@ -1,16 +1,83 @@
-# React + Vite
+# TRACKTASK-PROJECT
+A simple and visually rich task‑tracking application built with **React + Vite**. The project allows users to add tasks, categorize them with tags, and organize them into three workflow stages:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- **To Do**
+- **Doing**
+- **Done**
 
-Currently, two official plugins are available:
+Each category features a custom animated icon, expressive colors, and styled task cards to give users an engaging experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
+- Add tasks with title, category, and tags
+- Categorize tasks into To Do / Doing / Done
+- Visual task cards with icons and tag badges
+- Smooth UI built with custom CSS
+- Delete tasks easily with a clickable delete icon
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
+```
+TRACKTASK-PROJECT/
+│
+├── images/
+│   └── Output.png
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │   ├── check-mark-button.png
+│   │   ├── delete.png
+│   │   ├── direct-hit.png
+│   │   ├── fire.png
+│   │   ├── glowing-star.png
+│   │   └── react.svg
+│   │
+│   └── components/
+│       ├── Tag.css
+│       ├── Tag.jsx
+│       ├── TaskCard.css
+│       └── TaskCard.jsx
+│
+└── README.md
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼️ Output Preview
+Below is the UI preview of the application.
+
+### **Application UI Screenshot**
+<img src="./images/Output.png" width="900" />
+
+---
+
+## 🛠️ Tech Stack
+- **React**
+- **Vite**
+- **JavaScript (ES6+)**
+- **CSS3**
+
+---
+
+## 📦 Installation & Setup
+Follow the steps below to run the project locally:
+
+```bash
+git clone https://github.com/latenightcoder-git/TRACKTASK-PROJECT.git
+cd TRACKTASK-PROJECT
+npm install
+npm run dev
+```
+
+Your project will now run on:
+```
+http://localhost:5173/
+```
+
+---
+
+
