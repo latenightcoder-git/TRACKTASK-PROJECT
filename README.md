@@ -36,13 +36,24 @@ TRACKTASK-PROJECT/
 │   │   ├── glowing-star.png
 │   │   └── react.svg
 │   │
-│   └── components/
-│       ├── Tag.css
-│       ├── Tag.jsx
-│       ├── TaskCard.css
-│       └── TaskCard.jsx
+│   ├── components/
+│   │   ├── Tag.css
+│   │   ├── Tag.jsx
+│   │   ├── TaskCard.css
+│   │   ├── TaskCard.jsx
+│   │   ├── TaskColumn.css
+│   │   ├── TaskColumn.jsx
+│   │   ├── TaskForm.css
+│   │   ├── TaskForm.jsx
+│   │   └── TaskFormOld.jsx
+│   │
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
 │
 └── README.md
+```
 ```
 
 ---
